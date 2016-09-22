@@ -14,6 +14,8 @@
 		F1FA15831D946048009694EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA15811D946048009694EA /* LaunchScreen.storyboard */; };
 		F1FA158E1D946048009694EA /* RentalApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA158D1D946048009694EA /* RentalApplicationTests.swift */; };
 		F1FA15991D946048009694EA /* RentalApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA15981D946048009694EA /* RentalApplicationUITests.swift */; };
+		F1FA15A71D946F96009694EA /* RentalApplicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA15A61D946F96009694EA /* RentalApplicationTableViewCell.swift */; };
+		F1FA15A91D94714D009694EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA15A81D94714D009694EA /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F1FA15941D946048009694EA /* RentalApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentalApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA15981D946048009694EA /* RentalApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalApplicationUITests.swift; sourceTree = "<group>"; };
 		F1FA159A1D946048009694EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FA15A61D946F96009694EA /* RentalApplicationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentalApplicationTableViewCell.swift; sourceTree = "<group>"; };
+		F1FA15A81D94714D009694EA /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				F1FA15781D946048009694EA /* AppDelegate.swift */,
 				F1FA157A1D946048009694EA /* ViewController.swift */,
 				F1FA157C1D946048009694EA /* Main.storyboard */,
+				F1FA15A81D94714D009694EA /* Model.swift */,
 				F1FA157F1D946048009694EA /* Assets.xcassets */,
+				F1FA15A61D946F96009694EA /* RentalApplicationTableViewCell.swift */,
 				F1FA15811D946048009694EA /* LaunchScreen.storyboard */,
 				F1FA15841D946048009694EA /* Info.plist */,
 			);
@@ -261,6 +267,8 @@
 			files = (
 				F1FA157B1D946048009694EA /* ViewController.swift in Sources */,
 				F1FA15791D946048009694EA /* AppDelegate.swift in Sources */,
+				F1FA15A71D946F96009694EA /* RentalApplicationTableViewCell.swift in Sources */,
+				F1FA15A91D94714D009694EA /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
